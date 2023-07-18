@@ -13,7 +13,7 @@ function Cart() {
 			<h3>Cart</h3>
 			<div className="cartWrapper">
 				{products.map((product) => (
-					<div className="cartCard">
+					<div key={product.id} className="cartCard">
 						<img src={product.image} alt="" />
 						<h5>{product.title}</h5>
 						<h4>{product.price}</h4>
