@@ -11,6 +11,9 @@ const Navbar = () => {
 				justifyContent: "space-between",
 				backgroundColor: "#cdb0fd",
 				padding: "20px",
+				width: "98%",
+				position: "fixed",
+				top: "0",
 			}}>
 			<span className="logo">Redux Store</span>
 			<div>
